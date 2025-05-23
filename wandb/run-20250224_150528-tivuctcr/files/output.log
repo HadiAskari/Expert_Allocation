@@ -1,0 +1,54 @@
+ 70%|██████████████████████████████████████████████████▉                      | 138/198 [1:00:19<25:34, 25.58s/it]Traceback (most recent call last):
+{'loss': 2.8947, 'grad_norm': 29.12116050720215, 'learning_rate': 2.6999999999999996e-05, 'epoch': 0.15}
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_mistral.py", line 330, in <module>                 
+{'eval_loss': 2.3289215564727783, 'eval_runtime': 0.8306, 'eval_samples_per_second': 1.204, 'eval_steps_per_second': 1.204, 'epoch': 0.15}
+{'loss': 1.3863, 'grad_norm': 20.002037048339844, 'learning_rate': 5.6999999999999996e-05, 'epoch': 0.3}
+{'eval_loss': 1.4585390090942383, 'eval_runtime': 0.6167, 'eval_samples_per_second': 1.622, 'eval_steps_per_second': 1.622, 'epoch': 0.3}
+{'loss': 0.7672, 'grad_norm': 10.178647994995117, 'learning_rate': 8.699999999999999e-05, 'epoch': 0.45}
+{'eval_loss': 1.3507972955703735, 'eval_runtime': 0.6157, 'eval_samples_per_second': 1.624, 'eval_steps_per_second': 1.624, 'epoch': 0.45}
+{'loss': 0.7857, 'grad_norm': 10.890568733215332, 'learning_rate': 0.00011399999999999999, 'epoch': 0.6}
+{'eval_loss': 1.2223894596099854, 'eval_runtime': 0.6119, 'eval_samples_per_second': 1.634, 'eval_steps_per_second': 1.634, 'epoch': 0.6}
+{'loss': 0.6741, 'grad_norm': 2.1242446899414062, 'learning_rate': 0.00014399999999999998, 'epoch': 0.75}
+{'eval_loss': 1.174768328666687, 'eval_runtime': 0.6124, 'eval_samples_per_second': 1.633, 'eval_steps_per_second': 1.633, 'epoch': 0.75}
+{'loss': 0.5815, 'grad_norm': 0.39616474509239197, 'learning_rate': 0.00017399999999999997, 'epoch': 0.9}
+{'eval_loss': 1.076220154762268, 'eval_runtime': 0.6107, 'eval_samples_per_second': 1.637, 'eval_steps_per_second': 1.637, 'epoch': 0.9}
+current_epoch:  1
+{'loss': 0.5259, 'grad_norm': 0.3296699821949005, 'learning_rate': 0.000204, 'epoch': 1.05}
+{'eval_loss': 0.9428941011428833, 'eval_runtime': 0.6041, 'eval_samples_per_second': 1.655, 'eval_steps_per_second': 1.655, 'epoch': 1.05}
+{'loss': 0.4539, 'grad_norm': 0.4386174976825714, 'learning_rate': 0.000234, 'epoch': 1.2}
+{'eval_loss': 1.1099610328674316, 'eval_runtime': 0.5983, 'eval_samples_per_second': 1.671, 'eval_steps_per_second': 1.671, 'epoch': 1.2}
+{'loss': 0.6526, 'grad_norm': 12.18386459350586, 'learning_rate': 0.00026399999999999997, 'epoch': 1.35}
+{'eval_loss': 1.0072556734085083, 'eval_runtime': 0.5949, 'eval_samples_per_second': 1.681, 'eval_steps_per_second': 1.681, 'epoch': 1.35}
+{'loss': 0.53, 'grad_norm': 0.9965771436691284, 'learning_rate': 0.000294, 'epoch': 1.5}
+{'eval_loss': 0.9661339521408081, 'eval_runtime': 0.6, 'eval_samples_per_second': 1.667, 'eval_steps_per_second': 1.667, 'epoch': 1.5}
+{'loss': 0.5126, 'grad_norm': 0.32984429597854614, 'learning_rate': 0.00027551020408163264, 'epoch': 1.65}
+{'eval_loss': 1.013976812362671, 'eval_runtime': 0.5901, 'eval_samples_per_second': 1.694, 'eval_steps_per_second': 1.694, 'epoch': 1.65}
+{'loss': 0.4933, 'grad_norm': 0.43241801857948303, 'learning_rate': 0.00024489795918367346, 'epoch': 1.8}
+{'eval_loss': 0.9514412879943848, 'eval_runtime': 0.596, 'eval_samples_per_second': 1.678, 'eval_steps_per_second': 1.678, 'epoch': 1.8}
+{'loss': 0.4012, 'grad_norm': 0.2963366210460663, 'learning_rate': 0.00021428571428571427, 'epoch': 1.95}
+{'eval_loss': 1.0637166500091553, 'eval_runtime': 0.5899, 'eval_samples_per_second': 1.695, 'eval_steps_per_second': 1.695, 'epoch': 1.95}
+current_epoch:  2
+    fire.Fire(train)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_mistral.py", line 321, in train
+    trainer.train()
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer.py", line 1932, in train
+    return inner_training_loop(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer.py", line 2268, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer.py", line 3324, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/accelerate/accelerator.py", line 1964, in backward
+    self.scaler.scale(loss).backward(**kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

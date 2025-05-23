@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_mistral.py", line 330, in <module>
+    fire.Fire(train)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_mistral.py", line 321, in train
+    trainer.train()
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer.py", line 1885, in train
+    return inner_training_loop(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer.py", line 2147, in _inner_training_loop
+    self.control = self.callback_handler.on_train_begin(args, self.state, self.control)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer_callback.py", line 454, in on_train_begin
+    return self.call_event("on_train_begin", args, state, control)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer_callback.py", line 498, in call_event
+    result = getattr(callback, event)(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/integrations/integration_utils.py", line 842, in on_train_begin
+    self.setup(args, state, model, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/integrations/integration_utils.py", line 806, in setup
+    model_artifact = self._wandb.Artifact(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 140, in __init__
+    raise ValueError(
+ValueError: Artifact name may only contain alphanumeric characters, dashes, underscores, and dots. Invalid name: model-mistral_IF_25%_epoch_glue_cola_all

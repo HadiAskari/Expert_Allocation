@@ -1,0 +1,263 @@
+[34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+                                                                                                                 
+{'loss': 2.2819, 'grad_norm': 4.707337379455566, 'learning_rate': 2.9999999999999997e-05, 'epoch': 0.2}
+                                                                                                                 
+{'eval_loss': 2.0946288108825684, 'eval_runtime': 0.3609, 'eval_samples_per_second': 2.771, 'eval_steps_per_second': 2.771, 'epoch': 0.2}
+{'loss': 1.4327, 'grad_norm': 3.291686773300171, 'learning_rate': 5.9999999999999995e-05, 'epoch': 0.39}
+{'eval_loss': 1.2337753772735596, 'eval_runtime': 0.3572, 'eval_samples_per_second': 2.799, 'eval_steps_per_second': 2.799, 'epoch': 0.39}
+{'loss': 1.0161, 'grad_norm': 5.108492374420166, 'learning_rate': 8.699999999999999e-05, 'epoch': 0.59}
+{'eval_loss': 1.1449382305145264, 'eval_runtime': 0.3586, 'eval_samples_per_second': 2.789, 'eval_steps_per_second': 2.789, 'epoch': 0.59}
+{'loss': 0.8532, 'grad_norm': 1.2373825311660767, 'learning_rate': 0.000117, 'epoch': 0.79}
+{'eval_loss': 1.0185843706130981, 'eval_runtime': 0.355, 'eval_samples_per_second': 2.817, 'eval_steps_per_second': 2.817, 'epoch': 0.79}
+{'loss': 0.7032, 'grad_norm': 1.8386014699935913, 'learning_rate': 0.000147, 'epoch': 0.98}
+{'eval_loss': 0.8077313303947449, 'eval_runtime': 0.3599, 'eval_samples_per_second': 2.778, 'eval_steps_per_second': 2.778, 'epoch': 0.98}
+current_epoch:  1
+{'loss': 0.6106, 'grad_norm': 0.6166108250617981, 'learning_rate': 0.00017699999999999997, 'epoch': 1.18}
+{'eval_loss': 0.6737525463104248, 'eval_runtime': 0.3584, 'eval_samples_per_second': 2.791, 'eval_steps_per_second': 2.791, 'epoch': 1.18}
+{'loss': 0.5212, 'grad_norm': 0.6341373324394226, 'learning_rate': 0.00020699999999999996, 'epoch': 1.38}
+{'eval_loss': 0.6031923294067383, 'eval_runtime': 0.356, 'eval_samples_per_second': 2.809, 'eval_steps_per_second': 2.809, 'epoch': 1.38}
+{'loss': 0.4761, 'grad_norm': 0.8863097429275513, 'learning_rate': 0.000237, 'epoch': 1.57}
+{'eval_loss': 0.617706835269928, 'eval_runtime': 0.3565, 'eval_samples_per_second': 2.805, 'eval_steps_per_second': 2.805, 'epoch': 1.57}
+{'loss': 0.4645, 'grad_norm': 1.6614258289337158, 'learning_rate': 0.000267, 'epoch': 1.77}
+{'eval_loss': 0.5716686844825745, 'eval_runtime': 0.3573, 'eval_samples_per_second': 2.799, 'eval_steps_per_second': 2.799, 'epoch': 1.77}
+{'loss': 0.4112, 'grad_norm': 0.7270150184631348, 'learning_rate': 0.00029699999999999996, 'epoch': 1.97}
+{'eval_loss': 0.6081220507621765, 'eval_runtime': 0.3582, 'eval_samples_per_second': 2.792, 'eval_steps_per_second': 2.792, 'epoch': 1.97}
+current_epoch:  2
+{'loss': 0.3662, 'grad_norm': 0.5223957896232605, 'learning_rate': 0.00024599999999999996, 'epoch': 2.16}
+{'eval_loss': 0.4901246130466461, 'eval_runtime': 0.3572, 'eval_samples_per_second': 2.8, 'eval_steps_per_second': 2.8, 'epoch': 2.16}
+{'loss': 0.3433, 'grad_norm': 0.5183229446411133, 'learning_rate': 0.000186, 'epoch': 2.36}
+{'eval_loss': 0.4913049340248108, 'eval_runtime': 0.3578, 'eval_samples_per_second': 2.795, 'eval_steps_per_second': 2.795, 'epoch': 2.36}
+{'loss': 0.3284, 'grad_norm': 0.4772155284881592, 'learning_rate': 0.00012599999999999997, 'epoch': 2.56}
+{'eval_loss': 0.3932613134384155, 'eval_runtime': 0.3576, 'eval_samples_per_second': 2.797, 'eval_steps_per_second': 2.797, 'epoch': 2.56}
+{'loss': 0.3063, 'grad_norm': 0.3875785171985626, 'learning_rate': 6.599999999999999e-05, 'epoch': 2.75}
+{'eval_loss': 0.33285456895828247, 'eval_runtime': 0.3572, 'eval_samples_per_second': 2.8, 'eval_steps_per_second': 2.8, 'epoch': 2.75}
+{'loss': 0.2877, 'grad_norm': 0.325626403093338, 'learning_rate': 5.999999999999999e-06, 'epoch': 2.95}
+{'eval_loss': 0.31591203808784485, 'eval_runtime': 0.3569, 'eval_samples_per_second': 2.802, 'eval_steps_per_second': 2.802, 'epoch': 2.95}
+current_epoch:  3
+{'train_runtime': 2554.4054, 'train_samples_per_second': 7.642, 'train_steps_per_second': 0.059, 'train_loss': 0.6935110155741374, 'epoch': 2.95}
+save***** base_model.model.model.layers.0.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.0.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.0.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.0.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.0.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.0.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.0.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.1.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.1.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.1.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.1.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.1.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.1.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.1.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.2.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.2.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.2.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.2.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.2.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.2.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.2.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.3.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.3.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.3.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.3.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.3.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.3.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.3.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.4.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.4.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.4.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.4.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.4.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.4.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.4.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.5.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.5.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.5.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.5.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.5.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.5.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.5.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.6.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.6.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.6.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.6.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.6.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.6.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.6.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.7.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.7.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.7.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.7.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.7.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.7.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.7.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.8.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.8.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.8.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.8.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.8.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.8.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.8.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.9.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.9.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.9.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.9.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.9.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.9.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.9.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.10.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.10.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.10.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.10.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.10.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.10.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.10.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.11.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.11.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.11.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.11.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.11.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.11.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.11.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.12.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.12.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.12.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.12.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.12.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.12.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.12.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.13.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.13.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.13.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.13.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.13.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.13.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.13.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.14.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.14.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.14.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.14.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.14.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.14.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.14.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.15.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.15.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.15.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.15.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.15.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.15.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.15.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.16.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.16.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.16.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.16.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.16.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.16.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.16.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.17.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.17.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.17.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.17.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.17.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.17.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.17.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.18.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.18.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.18.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.18.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.18.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.18.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.18.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.19.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.19.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.19.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.19.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.19.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.19.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.19.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.20.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.20.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.20.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.20.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.20.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.20.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.20.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.21.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.21.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.21.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.21.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.21.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.21.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.21.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.22.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.22.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.22.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.22.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.22.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.22.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.22.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.23.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.23.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.23.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.23.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.23.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.23.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.23.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.24.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.24.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.24.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.24.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.24.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.24.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.24.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.25.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.25.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.25.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.25.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.25.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.25.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.25.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.26.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.26.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.26.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.26.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.26.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.26.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.26.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.27.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.27.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.27.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.27.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.27.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.27.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.27.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.28.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.28.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.28.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.28.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.28.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.28.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.28.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.29.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.29.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.29.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.29.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.29.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.29.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.29.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.30.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.30.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.30.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.30.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.30.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.30.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.30.mlp.down_proj.router.router.weight
+save***** base_model.model.model.layers.31.self_attn.q_proj.router.router.weight
+save***** base_model.model.model.layers.31.self_attn.k_proj.router.router.weight
+save***** base_model.model.model.layers.31.self_attn.v_proj.router.router.weight
+save***** base_model.model.model.layers.31.self_attn.o_proj.router.router.weight
+save***** base_model.model.model.layers.31.mlp.gate_proj.router.router.weight
+save***** base_model.model.model.layers.31.mlp.up_proj.router.router.weight
+save***** base_model.model.model.layers.31.mlp.down_proj.router.router.weight
+
+ If there's a warning about missing keys above, please disregard :)

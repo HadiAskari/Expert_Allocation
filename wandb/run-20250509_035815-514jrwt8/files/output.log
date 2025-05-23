@@ -1,0 +1,73 @@
+[34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+                                                                                                                                 
+{'loss': 5.1129, 'grad_norm': 47.34791564941406, 'learning_rate': 2.9999999999999997e-05, 'epoch': 0.15}
+                                                                                                                                 
+{'eval_loss': 3.583280086517334, 'eval_runtime': 0.5808, 'eval_samples_per_second': 1.722, 'eval_steps_per_second': 1.722, 'epoch': 0.15}
+{'loss': 1.7103, 'grad_norm': 2.4385855197906494, 'learning_rate': 5.6999999999999996e-05, 'epoch': 0.3}
+{'eval_loss': 1.6297904253005981, 'eval_runtime': 0.5645, 'eval_samples_per_second': 1.771, 'eval_steps_per_second': 1.771, 'epoch': 0.3}
+{'loss': 0.6983, 'grad_norm': 1.2337167263031006, 'learning_rate': 8.699999999999999e-05, 'epoch': 0.45}
+{'eval_loss': 1.531445026397705, 'eval_runtime': 0.5656, 'eval_samples_per_second': 1.768, 'eval_steps_per_second': 1.768, 'epoch': 0.45}
+{'loss': 0.7372, 'grad_norm': 0.60109943151474, 'learning_rate': 0.000117, 'epoch': 0.6}
+{'eval_loss': 1.4013288021087646, 'eval_runtime': 0.5536, 'eval_samples_per_second': 1.806, 'eval_steps_per_second': 1.806, 'epoch': 0.6}
+{'loss': 0.6078, 'grad_norm': 1.7139731645584106, 'learning_rate': 0.000147, 'epoch': 0.75}
+{'eval_loss': 1.3514556884765625, 'eval_runtime': 0.5469, 'eval_samples_per_second': 1.829, 'eval_steps_per_second': 1.829, 'epoch': 0.75}
+{'loss': 0.604, 'grad_norm': 0.5028002858161926, 'learning_rate': 0.00017699999999999997, 'epoch': 0.9}
+{'eval_loss': 1.4256057739257812, 'eval_runtime': 0.5472, 'eval_samples_per_second': 1.827, 'eval_steps_per_second': 1.827, 'epoch': 0.9}
+current_epoch:  1
+{'loss': 0.6194, 'grad_norm': 1.3062429428100586, 'learning_rate': 0.00020699999999999996, 'epoch': 1.05}
+{'eval_loss': 1.1783785820007324, 'eval_runtime': 0.5493, 'eval_samples_per_second': 1.821, 'eval_steps_per_second': 1.821, 'epoch': 1.05}
+{'loss': 0.526, 'grad_norm': 24.3482723236084, 'learning_rate': 0.000237, 'epoch': 1.2}
+{'eval_loss': 1.2402305603027344, 'eval_runtime': 0.544, 'eval_samples_per_second': 1.838, 'eval_steps_per_second': 1.838, 'epoch': 1.2}
+{'loss': 0.6275, 'grad_norm': 0.8499926924705505, 'learning_rate': 0.000267, 'epoch': 1.35}
+{'eval_loss': 1.0012130737304688, 'eval_runtime': 0.5397, 'eval_samples_per_second': 1.853, 'eval_steps_per_second': 1.853, 'epoch': 1.35}
+{'loss': 0.5008, 'grad_norm': 5.214829921722412, 'learning_rate': 0.00029699999999999996, 'epoch': 1.5}
+{'eval_loss': 1.1465950012207031, 'eval_runtime': 0.5409, 'eval_samples_per_second': 1.849, 'eval_steps_per_second': 1.849, 'epoch': 1.5}
+{'loss': 0.5709, 'grad_norm': 0.770780622959137, 'learning_rate': 0.0002724489795918367, 'epoch': 1.65}
+{'eval_loss': 1.1536455154418945, 'eval_runtime': 0.5389, 'eval_samples_per_second': 1.856, 'eval_steps_per_second': 1.856, 'epoch': 1.65}
+{'loss': 0.62, 'grad_norm': 0.6814637780189514, 'learning_rate': 0.00024183673469387753, 'epoch': 1.8}
+{'eval_loss': 1.0764411687850952, 'eval_runtime': 0.5386, 'eval_samples_per_second': 1.857, 'eval_steps_per_second': 1.857, 'epoch': 1.8}
+{'loss': 0.5218, 'grad_norm': 1.219434380531311, 'learning_rate': 0.00021122448979591835, 'epoch': 1.95}
+{'eval_loss': 1.269887089729309, 'eval_runtime': 0.5384, 'eval_samples_per_second': 1.857, 'eval_steps_per_second': 1.857, 'epoch': 1.95}
+current_epoch:  2
+{'loss': 0.5424, 'grad_norm': 0.6257216334342957, 'learning_rate': 0.00018061224489795917, 'epoch': 2.1}
+{'eval_loss': 1.0266315937042236, 'eval_runtime': 0.5361, 'eval_samples_per_second': 1.865, 'eval_steps_per_second': 1.865, 'epoch': 2.1}
+{'loss': 0.3869, 'grad_norm': 1.0777206420898438, 'learning_rate': 0.00015, 'epoch': 2.25}
+{'eval_loss': 1.2155698537826538, 'eval_runtime': 0.5345, 'eval_samples_per_second': 1.871, 'eval_steps_per_second': 1.871, 'epoch': 2.25}
+{'loss': 0.4742, 'grad_norm': 0.7293134927749634, 'learning_rate': 0.0001193877551020408, 'epoch': 2.39}
+{'eval_loss': 0.9532769918441772, 'eval_runtime': 0.5378, 'eval_samples_per_second': 1.859, 'eval_steps_per_second': 1.859, 'epoch': 2.39}
+{'loss': 0.4513, 'grad_norm': 0.7723648548126221, 'learning_rate': 8.877551020408162e-05, 'epoch': 2.54}
+{'eval_loss': 0.8150971531867981, 'eval_runtime': 0.5381, 'eval_samples_per_second': 1.858, 'eval_steps_per_second': 1.858, 'epoch': 2.54}
+{'loss': 0.3722, 'grad_norm': 0.6224364638328552, 'learning_rate': 5.816326530612244e-05, 'epoch': 2.69}
+{'eval_loss': 0.7274014949798584, 'eval_runtime': 0.5383, 'eval_samples_per_second': 1.858, 'eval_steps_per_second': 1.858, 'epoch': 2.69}
+{'loss': 0.4577, 'grad_norm': 0.47051510214805603, 'learning_rate': 2.7551020408163265e-05, 'epoch': 2.84}
+{'eval_loss': 0.7056018114089966, 'eval_runtime': 0.5389, 'eval_samples_per_second': 1.856, 'eval_steps_per_second': 1.856, 'epoch': 2.84}
+    fire.Fire(train)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_gemma.py", line 321, in train
+    trainer.train()
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 1932, in train
+    return inner_training_loop(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 2345, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 2796, in _maybe_log_save_evaluate
+    self._save_checkpoint(model, trial, metrics=metrics)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 2875, in _save_checkpoint
+    self.save_model(output_dir, _internal_call=True)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 3429, in save_model
+    self._save(output_dir)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 3494, in _save
+    safetensors.torch.save_file(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/safetensors/torch.py", line 284, in save_file
+    serialize_file(_flatten(tensors), filename, metadata=metadata)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/safetensors/torch.py", line 480, in _flatten
+    raise RuntimeError(
+RuntimeError:
+            Some tensors share memory, this will lead to duplicate memory on disk and potential differences when loading them again: [{'base_model.model.model.embed_tokens.weight', 'base_model.model.lm_head.weight'}].
+            A potential way to correctly save your model is to use `save_model`.
+            More information at https://huggingface.co/docs/safetensors/torch_shared_tensors
+

@@ -1,0 +1,11 @@
+{"time":"2025-02-24T15:05:29.085661097-08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250224_150528-tivuctcr/logs/debug-core.log"}
+{"time":"2025-02-24T15:05:29.195943404-08:00","level":"INFO","msg":"created new stream","id":"tivuctcr"}
+{"time":"2025-02-24T15:05:29.195986184-08:00","level":"INFO","msg":"stream: started","id":"tivuctcr"}
+{"time":"2025-02-24T15:05:29.196021364-08:00","level":"INFO","msg":"writer: Do: started","stream_id":"tivuctcr"}
+{"time":"2025-02-24T15:05:29.196044134-08:00","level":"INFO","msg":"handler: started","stream_id":"tivuctcr"}
+{"time":"2025-02-24T15:05:29.196028934-08:00","level":"INFO","msg":"sender: started","stream_id":"tivuctcr"}
+{"time":"2025-02-24T15:05:29.362079088-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-24T15:34:59.529106095-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-24T16:06:14.551021461-08:00","level":"INFO","msg":"stream: closing","id":"tivuctcr"}
+{"time":"2025-02-24T16:06:14.551060691-08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-24T16:06:14.55174452-08:00","level":"INFO","msg":"Stopped system monitor"}

@@ -1,0 +1,15 @@
+{"time":"2025-05-01T21:41:32.940707481Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250501_214132-a791pbxi/logs/debug-core.log"}
+{"time":"2025-05-01T21:41:33.138616869Z","level":"INFO","msg":"created new stream","id":"a791pbxi"}
+{"time":"2025-05-01T21:41:33.138682141Z","level":"INFO","msg":"stream: started","id":"a791pbxi"}
+{"time":"2025-05-01T21:41:33.138733063Z","level":"INFO","msg":"writer: Do: started","stream_id":"a791pbxi"}
+{"time":"2025-05-01T21:41:33.138804746Z","level":"INFO","msg":"sender: started","stream_id":"a791pbxi"}
+{"time":"2025-05-01T21:41:33.138768165Z","level":"INFO","msg":"handler: started","stream_id":"a791pbxi"}
+{"time":"2025-05-01T21:41:33.39019767Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-01T21:43:11.72829287Z","level":"INFO","msg":"stream: closing","id":"a791pbxi"}
+{"time":"2025-05-01T21:43:11.728404455Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-01T21:43:11.728662935Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-01T21:43:12.164018864Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-01T21:43:12.593140155Z","level":"INFO","msg":"handler: closed","stream_id":"a791pbxi"}
+{"time":"2025-05-01T21:43:12.593179136Z","level":"INFO","msg":"writer: Close: closed","stream_id":"a791pbxi"}
+{"time":"2025-05-01T21:43:12.593192617Z","level":"INFO","msg":"sender: closed","stream_id":"a791pbxi"}
+{"time":"2025-05-01T21:43:12.595207627Z","level":"INFO","msg":"stream: closed","id":"a791pbxi"}

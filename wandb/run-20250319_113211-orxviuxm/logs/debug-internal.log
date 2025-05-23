@@ -1,0 +1,15 @@
+{"time":"2025-03-19T11:32:11.57392896-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250319_113211-orxviuxm/logs/debug-core.log"}
+{"time":"2025-03-19T11:32:12.487589918-07:00","level":"INFO","msg":"created new stream","id":"orxviuxm"}
+{"time":"2025-03-19T11:32:12.487812278-07:00","level":"INFO","msg":"stream: started","id":"orxviuxm"}
+{"time":"2025-03-19T11:32:12.487844658-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"orxviuxm"}
+{"time":"2025-03-19T11:32:12.487883618-07:00","level":"INFO","msg":"handler: started","stream_id":"orxviuxm"}
+{"time":"2025-03-19T11:32:12.487958688-07:00","level":"INFO","msg":"sender: started","stream_id":"orxviuxm"}
+{"time":"2025-03-19T11:32:12.680879241-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T14:25:05.681645575-07:00","level":"INFO","msg":"stream: closing","id":"orxviuxm"}
+{"time":"2025-03-19T14:25:05.681706854-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-19T14:25:05.682734751-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-19T14:25:06.182954205-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-19T14:25:06.354289328-07:00","level":"INFO","msg":"handler: closed","stream_id":"orxviuxm"}
+{"time":"2025-03-19T14:25:06.354343758-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"orxviuxm"}
+{"time":"2025-03-19T14:25:06.354355478-07:00","level":"INFO","msg":"sender: closed","stream_id":"orxviuxm"}
+{"time":"2025-03-19T14:25:06.354497027-07:00","level":"INFO","msg":"stream: closed","id":"orxviuxm"}

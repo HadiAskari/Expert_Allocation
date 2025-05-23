@@ -1,0 +1,16 @@
+{"time":"2025-03-20T03:28:36.424270656-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250320_032836-950x94vb/logs/debug-core.log"}
+{"time":"2025-03-20T03:28:36.535251519-07:00","level":"INFO","msg":"created new stream","id":"950x94vb"}
+{"time":"2025-03-20T03:28:36.535433159-07:00","level":"INFO","msg":"stream: started","id":"950x94vb"}
+{"time":"2025-03-20T03:28:36.535486179-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"950x94vb"}
+{"time":"2025-03-20T03:28:36.535522559-07:00","level":"INFO","msg":"handler: started","stream_id":"950x94vb"}
+{"time":"2025-03-20T03:28:36.535618729-07:00","level":"INFO","msg":"sender: started","stream_id":"950x94vb"}
+{"time":"2025-03-20T03:28:36.787956041-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-20T08:24:07.278513431-07:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/950x94vb/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-03-20T09:25:33.247776524-07:00","level":"INFO","msg":"stream: closing","id":"950x94vb"}
+{"time":"2025-03-20T09:25:33.247815794-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-20T09:25:33.248713624-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-20T09:25:33.695585163-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-20T09:25:33.818239086-07:00","level":"INFO","msg":"handler: closed","stream_id":"950x94vb"}
+{"time":"2025-03-20T09:25:33.818294756-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"950x94vb"}
+{"time":"2025-03-20T09:25:33.818315856-07:00","level":"INFO","msg":"sender: closed","stream_id":"950x94vb"}
+{"time":"2025-03-20T09:25:33.818382486-07:00","level":"INFO","msg":"stream: closed","id":"950x94vb"}

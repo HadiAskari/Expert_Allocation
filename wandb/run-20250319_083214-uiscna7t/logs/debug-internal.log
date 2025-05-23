@@ -1,0 +1,15 @@
+{"time":"2025-03-19T08:32:14.513051777Z","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250319_083214-uiscna7t/logs/debug-core.log"}
+{"time":"2025-03-19T08:32:14.625138701Z","level":"INFO","msg":"created new stream","id":"uiscna7t"}
+{"time":"2025-03-19T08:32:14.625214409Z","level":"INFO","msg":"stream: started","id":"uiscna7t"}
+{"time":"2025-03-19T08:32:14.625276847Z","level":"INFO","msg":"writer: Do: started","stream_id":"uiscna7t"}
+{"time":"2025-03-19T08:32:14.625330345Z","level":"INFO","msg":"handler: started","stream_id":"uiscna7t"}
+{"time":"2025-03-19T08:32:14.625386637Z","level":"INFO","msg":"sender: started","stream_id":"uiscna7t"}
+{"time":"2025-03-19T08:32:14.900740516Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T13:25:38.884709451Z","level":"INFO","msg":"stream: closing","id":"uiscna7t"}
+{"time":"2025-03-19T13:25:38.884804924Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-19T13:25:38.885883692Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-19T13:25:39.334690269Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-19T13:25:39.631933349Z","level":"INFO","msg":"handler: closed","stream_id":"uiscna7t"}
+{"time":"2025-03-19T13:25:39.631962752Z","level":"INFO","msg":"writer: Close: closed","stream_id":"uiscna7t"}
+{"time":"2025-03-19T13:25:39.631972599Z","level":"INFO","msg":"sender: closed","stream_id":"uiscna7t"}
+{"time":"2025-03-19T13:25:39.635136897Z","level":"INFO","msg":"stream: closed","id":"uiscna7t"}

@@ -1,0 +1,15 @@
+{"time":"2025-05-04T10:05:57.278581703Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250504_100557-4ldc8u32/logs/debug-core.log"}
+{"time":"2025-05-04T10:05:57.478543215Z","level":"INFO","msg":"created new stream","id":"4ldc8u32"}
+{"time":"2025-05-04T10:05:57.478601297Z","level":"INFO","msg":"stream: started","id":"4ldc8u32"}
+{"time":"2025-05-04T10:05:57.478643659Z","level":"INFO","msg":"sender: started","stream_id":"4ldc8u32"}
+{"time":"2025-05-04T10:05:57.478629398Z","level":"INFO","msg":"writer: Do: started","stream_id":"4ldc8u32"}
+{"time":"2025-05-04T10:05:57.478639749Z","level":"INFO","msg":"handler: started","stream_id":"4ldc8u32"}
+{"time":"2025-05-04T10:05:57.643672418Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-04T10:48:18.806869457Z","level":"INFO","msg":"stream: closing","id":"4ldc8u32"}
+{"time":"2025-05-04T10:48:18.80693936Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-04T10:48:18.807315165Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-04T10:48:19.228600593Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-04T10:48:19.366872151Z","level":"INFO","msg":"handler: closed","stream_id":"4ldc8u32"}
+{"time":"2025-05-04T10:48:19.366902092Z","level":"INFO","msg":"sender: closed","stream_id":"4ldc8u32"}
+{"time":"2025-05-04T10:48:19.366895032Z","level":"INFO","msg":"writer: Close: closed","stream_id":"4ldc8u32"}
+{"time":"2025-05-04T10:48:19.369298837Z","level":"INFO","msg":"stream: closed","id":"4ldc8u32"}

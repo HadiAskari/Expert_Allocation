@@ -1,0 +1,57 @@
+[34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+  0%|                                                                              | 0/500 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_mistral.py", line 330, in <module>
+    fire.Fire(train)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_mistral.py", line 321, in train
+    trainer.train()
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 1932, in train
+    return inner_training_loop(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 2268, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 3307, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 3338, in compute_loss
+    outputs = model(**inputs)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/accelerate/utils/operations.py", line 817, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/accelerate/utils/operations.py", line 805, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 14, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_peft_model_hacked.py", line 983, in forward
+    return self.base_model(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_modeling_mistral_hacked.py", line 1563, in forward
+    outputs, router_logits = self.model(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_modeling_mistral_hacked.py", line 1244, in forward
+    layer_outputs = decoder_layer(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_modeling_mistral_hacked.py", line 940, in forward
+    hidden_states, r_l = self.mlp(hidden_states)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/accelerate/hooks.py", line 166, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_modeling_mistral_hacked.py", line 258, in forward
+    gate, r_l2 = self.gate_proj(x)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_lora_hacked.py", line 869, in forward
+    self.lora_B[adapter_name_moe](
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 47.40 GiB total capacity; 46.66 GiB already allocated; 11.69 MiB free; 46.82 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

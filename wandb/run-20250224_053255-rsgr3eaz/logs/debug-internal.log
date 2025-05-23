@@ -1,0 +1,26 @@
+{"time":"2025-02-24T05:32:55.834458112-08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250224_053255-rsgr3eaz/logs/debug-core.log"}
+{"time":"2025-02-24T05:32:56.147127083-08:00","level":"INFO","msg":"created new stream","id":"rsgr3eaz"}
+{"time":"2025-02-24T05:32:56.147166413-08:00","level":"INFO","msg":"stream: started","id":"rsgr3eaz"}
+{"time":"2025-02-24T05:32:56.147248273-08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rsgr3eaz"}
+{"time":"2025-02-24T05:32:56.147342183-08:00","level":"INFO","msg":"handler: started","stream_id":"rsgr3eaz"}
+{"time":"2025-02-24T05:32:56.147284433-08:00","level":"INFO","msg":"sender: started","stream_id":"rsgr3eaz"}
+{"time":"2025-02-24T05:32:56.348431074-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-24T05:39:41.482038584-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-24T05:40:11.829270747-08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/rsgr3eaz/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-02-24T05:40:26.621510617-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-24T05:41:11.307190438-08:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/rsgr3eaz/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-02-24T05:41:26.627989856-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-24T05:42:11.649249949-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-24T05:42:43.909043715-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-24T05:43:31.570629577-08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/rsgr3eaz/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-02-24T05:43:41.853136282-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-24T05:47:11.865707166-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-02-24T05:49:26.885136374-08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-24T06:59:22.564221165-08:00","level":"INFO","msg":"stream: closing","id":"rsgr3eaz"}
+{"time":"2025-02-24T06:59:22.564255205-08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-24T06:59:22.565085274-08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-24T06:59:23.053201559-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-24T06:59:23.201067811-08:00","level":"INFO","msg":"handler: closed","stream_id":"rsgr3eaz"}
+{"time":"2025-02-24T06:59:23.201153241-08:00","level":"INFO","msg":"sender: closed","stream_id":"rsgr3eaz"}
+{"time":"2025-02-24T06:59:23.201149551-08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rsgr3eaz"}
+{"time":"2025-02-24T06:59:23.201251041-08:00","level":"INFO","msg":"stream: closed","id":"rsgr3eaz"}

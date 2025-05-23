@@ -1,0 +1,17 @@
+{"time":"2025-05-01T15:33:49.812715955Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250501_153349-kliu5lhm/logs/debug-core.log"}
+{"time":"2025-05-01T15:33:50.01515291Z","level":"INFO","msg":"created new stream","id":"kliu5lhm"}
+{"time":"2025-05-01T15:33:50.015201262Z","level":"INFO","msg":"stream: started","id":"kliu5lhm"}
+{"time":"2025-05-01T15:33:50.015230193Z","level":"INFO","msg":"writer: Do: started","stream_id":"kliu5lhm"}
+{"time":"2025-05-01T15:33:50.015255083Z","level":"INFO","msg":"handler: started","stream_id":"kliu5lhm"}
+{"time":"2025-05-01T15:33:50.015295975Z","level":"INFO","msg":"sender: started","stream_id":"kliu5lhm"}
+{"time":"2025-05-01T15:33:50.19618572Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-01T19:11:09.502223831Z","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/kliu5lhm/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-01T19:11:35.469851046Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-01T19:47:53.23621774Z","level":"INFO","msg":"stream: closing","id":"kliu5lhm"}
+{"time":"2025-05-01T19:47:53.236348075Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-01T19:47:53.236654468Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-01T19:47:53.820718041Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-01T19:47:54.045214032Z","level":"INFO","msg":"handler: closed","stream_id":"kliu5lhm"}
+{"time":"2025-05-01T19:47:54.045264384Z","level":"INFO","msg":"sender: closed","stream_id":"kliu5lhm"}
+{"time":"2025-05-01T19:47:54.045256173Z","level":"INFO","msg":"writer: Close: closed","stream_id":"kliu5lhm"}
+{"time":"2025-05-01T19:47:54.047800876Z","level":"INFO","msg":"stream: closed","id":"kliu5lhm"}

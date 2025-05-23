@@ -1,0 +1,121 @@
+{
+  "os": "Linux-5.15.0-122-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-05-01T10:13:15.206023Z",
+  "args": [
+    "--base_model",
+    "mistralai/Mistral-7B-v0.1",
+    "--data_path",
+    "/nas02/Hadi/Model-Selection-IF/alphalora/datasets/glue_mrpc_all.hf/",
+    "--output_dir",
+    "/nas02/Hadi/Model-Selection-IF/alphalora/mistral_mola_1234_80_glue_mrpc_all",
+    "--batch_size",
+    "128",
+    "--micro_batch_size",
+    "8",
+    "--num_epochs",
+    "3",
+    "--learning_rate",
+    "3e-4",
+    "--cutoff_len",
+    "256",
+    "--val_set_size",
+    "1",
+    "--lora_r",
+    "8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8",
+    "--lora_alpha",
+    "16",
+    "--lora_dropout",
+    "0.05",
+    "--lora_target_modules",
+    "q_proj,v_proj,k_proj,o_proj,gate_proj,down_proj,up_proj",
+    "--number_experts",
+    "1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4",
+    "--top_k",
+    "1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
+    "--train_on_inputs",
+    "--group_by_length",
+    "--add_eos_token",
+    "--wandb_run_name",
+    "mistral_mola_1234_80_glue_mrpc_all"
+  ],
+  "program": "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_mistral.py",
+  "codePath": "mola_training_mistral.py",
+  "git": {
+    "remote": "https://github.com/peijunallin/alphalora.git",
+    "commit": "41cb6e28fa424455fc831c5c276c9cc6a4f04cbe"
+  },
+  "email": "haskari@ucdavis.edu",
+  "root": "/nas02/Hadi/Model-Selection-IF/alphalora",
+  "host": "COE-CS-sv002",
+  "executable": "/home/haskari/miniconda3/envs/alphalora2/bin/python",
+  "codePathLocal": "mola_training_mistral.py",
+  "cpu_count": 128,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA RTX 6000 Ada Generation",
+  "gpu_count": 8,
+  "disk": {
+    "/": {
+      "total": "105089261568",
+      "used": "33801568256"
+    }
+  },
+  "memory": {
+    "total": "540691456000"
+  },
+  "cpu": {
+    "count": 128,
+    "countLogical": 128
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    },
+    {
+      "name": "NVIDIA RTX 6000 Ada Generation",
+      "memoryTotal": "51527024640",
+      "cudaCores": 18176,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.6"
+}

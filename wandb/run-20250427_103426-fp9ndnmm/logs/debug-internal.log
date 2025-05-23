@@ -1,0 +1,16 @@
+{"time":"2025-04-27T10:34:26.809795511Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250427_103426-fp9ndnmm/logs/debug-core.log"}
+{"time":"2025-04-27T10:34:27.741630424Z","level":"INFO","msg":"created new stream","id":"fp9ndnmm"}
+{"time":"2025-04-27T10:34:27.741716049Z","level":"INFO","msg":"stream: started","id":"fp9ndnmm"}
+{"time":"2025-04-27T10:34:27.741759071Z","level":"INFO","msg":"writer: Do: started","stream_id":"fp9ndnmm"}
+{"time":"2025-04-27T10:34:27.741797414Z","level":"INFO","msg":"handler: started","stream_id":"fp9ndnmm"}
+{"time":"2025-04-27T10:34:27.74293436Z","level":"INFO","msg":"sender: started","stream_id":"fp9ndnmm"}
+{"time":"2025-04-27T10:34:27.955187019Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-27T13:26:38.732836785Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/fp9ndnmm/file_stream\": dial tcp 35.186.228.49:443: connect: connection timed out"}
+{"time":"2025-04-27T18:38:02.573014383Z","level":"INFO","msg":"stream: closing","id":"fp9ndnmm"}
+{"time":"2025-04-27T18:38:02.573124173Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-27T18:38:02.573298777Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-27T18:38:02.996287582Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-27T18:38:03.138579662Z","level":"INFO","msg":"handler: closed","stream_id":"fp9ndnmm"}
+{"time":"2025-04-27T18:38:03.13862464Z","level":"INFO","msg":"writer: Close: closed","stream_id":"fp9ndnmm"}
+{"time":"2025-04-27T18:38:03.138661516Z","level":"INFO","msg":"sender: closed","stream_id":"fp9ndnmm"}
+{"time":"2025-04-27T18:38:03.141605254Z","level":"INFO","msg":"stream: closed","id":"fp9ndnmm"}

@@ -1,0 +1,57 @@
+[34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+100%|██████████████████████████████████████████████████████████████████████████████████████████| 114/114 [46:12<00:00, 24.07s/it]Traceback (most recent call last):
+{'loss': 4.1482, 'grad_norm': 21.848587036132812, 'learning_rate': 2.9999999999999997e-05, 'epoch': 0.26}
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_gemma.py", line 330, in <module>                                  
+{'eval_loss': 2.449519634246826, 'eval_runtime': 0.5649, 'eval_samples_per_second': 1.77, 'eval_steps_per_second': 1.77, 'epoch': 0.26}
+{'loss': 1.8367, 'grad_norm': 1.162207841873169, 'learning_rate': 5.9999999999999995e-05, 'epoch': 0.52}
+{'eval_loss': 1.072047233581543, 'eval_runtime': 0.5562, 'eval_samples_per_second': 1.798, 'eval_steps_per_second': 1.798, 'epoch': 0.52}
+{'loss': 1.2074, 'grad_norm': 0.9126260280609131, 'learning_rate': 8.999999999999999e-05, 'epoch': 0.77}
+{'eval_loss': 0.8513261079788208, 'eval_runtime': 0.5608, 'eval_samples_per_second': 1.783, 'eval_steps_per_second': 1.783, 'epoch': 0.77}
+current_epoch:  1
+{'loss': 1.1011, 'grad_norm': 1.4785635471343994, 'learning_rate': 0.00011999999999999999, 'epoch': 1.03}
+{'eval_loss': 0.8483300805091858, 'eval_runtime': 0.5553, 'eval_samples_per_second': 1.801, 'eval_steps_per_second': 1.801, 'epoch': 1.03}
+{'loss': 1.0797, 'grad_norm': 0.991233766078949, 'learning_rate': 0.00015, 'epoch': 1.29}
+{'eval_loss': 0.8301718235015869, 'eval_runtime': 0.5595, 'eval_samples_per_second': 1.787, 'eval_steps_per_second': 1.787, 'epoch': 1.29}
+{'loss': 1.0432, 'grad_norm': 0.8393929600715637, 'learning_rate': 0.00017699999999999997, 'epoch': 1.55}
+{'eval_loss': 0.8162267208099365, 'eval_runtime': 0.5565, 'eval_samples_per_second': 1.797, 'eval_steps_per_second': 1.797, 'epoch': 1.55}
+{'loss': 1.0205, 'grad_norm': 0.5400029420852661, 'learning_rate': 0.00020699999999999996, 'epoch': 1.81}
+{'eval_loss': 0.8101587295532227, 'eval_runtime': 0.5568, 'eval_samples_per_second': 1.796, 'eval_steps_per_second': 1.796, 'epoch': 1.81}
+current_epoch:  2
+{'loss': 0.9795, 'grad_norm': 0.6488588452339172, 'learning_rate': 0.000237, 'epoch': 2.06}
+{'eval_loss': 0.7983573079109192, 'eval_runtime': 0.5513, 'eval_samples_per_second': 1.814, 'eval_steps_per_second': 1.814, 'epoch': 2.06}
+{'loss': 0.8644, 'grad_norm': 0.8196656107902527, 'learning_rate': 0.000267, 'epoch': 2.32}
+{'eval_loss': 0.8272738456726074, 'eval_runtime': 0.5583, 'eval_samples_per_second': 1.791, 'eval_steps_per_second': 1.791, 'epoch': 2.32}
+{'loss': 0.8603, 'grad_norm': 0.6728563904762268, 'learning_rate': 0.00029699999999999996, 'epoch': 2.58}
+{'eval_loss': 0.826607882976532, 'eval_runtime': 0.5558, 'eval_samples_per_second': 1.799, 'eval_steps_per_second': 1.799, 'epoch': 2.58}
+{'loss': 0.8822, 'grad_norm': 1.0190112590789795, 'learning_rate': 0.00010714285714285714, 'epoch': 2.84}
+{'eval_loss': 0.8030621409416199, 'eval_runtime': 0.5565, 'eval_samples_per_second': 1.797, 'eval_steps_per_second': 1.797, 'epoch': 2.84}
+    fire.Fire(train)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_gemma.py", line 321, in train
+    trainer.train()
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 1932, in train
+    return inner_training_loop(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 2345, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 2796, in _maybe_log_save_evaluate
+    self._save_checkpoint(model, trial, metrics=metrics)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 2875, in _save_checkpoint
+    self.save_model(output_dir, _internal_call=True)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 3429, in save_model
+    self._save(output_dir)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 3494, in _save
+    safetensors.torch.save_file(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/safetensors/torch.py", line 284, in save_file
+    serialize_file(_flatten(tensors), filename, metadata=metadata)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/safetensors/torch.py", line 480, in _flatten
+    raise RuntimeError(
+RuntimeError:
+            Some tensors share memory, this will lead to duplicate memory on disk and potential differences when loading them again: [{'base_model.model.model.embed_tokens.weight', 'base_model.model.lm_head.weight'}].
+            A potential way to correctly save your model is to use `save_model`.
+            More information at https://huggingface.co/docs/safetensors/torch_shared_tensors
+

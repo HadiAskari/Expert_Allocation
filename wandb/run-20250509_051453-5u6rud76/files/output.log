@@ -1,0 +1,65 @@
+[34m[1mwandb[0m: [33mWARNING[0m The get_url method is deprecated and will be removed in a future release. Please use `run.url` instead.
+                                                                                                                                 
+{'loss': 3.3912, 'grad_norm': 32.3757209777832, 'learning_rate': 2.9999999999999997e-05, 'epoch': 0.2}
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_gemma.py", line 330, in <module>                                  
+{'eval_loss': 2.4951419830322266, 'eval_runtime': 0.5719, 'eval_samples_per_second': 1.749, 'eval_steps_per_second': 1.749, 'epoch': 0.2}
+{'loss': 1.5307, 'grad_norm': 1.9400930404663086, 'learning_rate': 5.9999999999999995e-05, 'epoch': 0.39}
+{'eval_loss': 1.2205427885055542, 'eval_runtime': 0.5633, 'eval_samples_per_second': 1.775, 'eval_steps_per_second': 1.775, 'epoch': 0.39}
+{'loss': 0.9129, 'grad_norm': 1.6683669090270996, 'learning_rate': 8.999999999999999e-05, 'epoch': 0.59}
+{'eval_loss': 1.0195480585098267, 'eval_runtime': 0.5659, 'eval_samples_per_second': 1.767, 'eval_steps_per_second': 1.767, 'epoch': 0.59}
+{'loss': 0.6661, 'grad_norm': 1.3493597507476807, 'learning_rate': 0.00011999999999999999, 'epoch': 0.79}
+{'eval_loss': 0.9364994764328003, 'eval_runtime': 0.5608, 'eval_samples_per_second': 1.783, 'eval_steps_per_second': 1.783, 'epoch': 0.79}
+{'loss': 0.5753, 'grad_norm': 0.7565718293190002, 'learning_rate': 0.00015, 'epoch': 0.98}
+{'eval_loss': 0.7732576727867126, 'eval_runtime': 0.5646, 'eval_samples_per_second': 1.771, 'eval_steps_per_second': 1.771, 'epoch': 0.98}
+current_epoch:  1
+{'loss': 0.5438, 'grad_norm': 0.7305924296379089, 'learning_rate': 0.00017999999999999998, 'epoch': 1.18}
+{'eval_loss': 0.5973333716392517, 'eval_runtime': 0.5629, 'eval_samples_per_second': 1.776, 'eval_steps_per_second': 1.776, 'epoch': 1.18}
+{'loss': 0.5056, 'grad_norm': 0.8969016671180725, 'learning_rate': 0.00020999999999999998, 'epoch': 1.38}
+{'eval_loss': 0.5313594341278076, 'eval_runtime': 0.5619, 'eval_samples_per_second': 1.78, 'eval_steps_per_second': 1.78, 'epoch': 1.38}
+{'loss': 0.4564, 'grad_norm': 0.7477348446846008, 'learning_rate': 0.00023999999999999998, 'epoch': 1.57}
+{'eval_loss': 0.5993035435676575, 'eval_runtime': 0.5606, 'eval_samples_per_second': 1.784, 'eval_steps_per_second': 1.784, 'epoch': 1.57}
+{'loss': 0.4458, 'grad_norm': 0.8445469737052917, 'learning_rate': 0.00027, 'epoch': 1.77}
+{'eval_loss': 0.5918107628822327, 'eval_runtime': 0.556, 'eval_samples_per_second': 1.799, 'eval_steps_per_second': 1.799, 'epoch': 1.77}
+{'loss': 0.4084, 'grad_norm': 0.981131374835968, 'learning_rate': 0.0003, 'epoch': 1.97}
+{'eval_loss': 0.5126842260360718, 'eval_runtime': 0.5589, 'eval_samples_per_second': 1.789, 'eval_steps_per_second': 1.789, 'epoch': 1.97}
+current_epoch:  2
+{'loss': 0.341, 'grad_norm': 1.0443273782730103, 'learning_rate': 0.00023999999999999998, 'epoch': 2.16}
+{'eval_loss': 0.40705791115760803, 'eval_runtime': 0.5556, 'eval_samples_per_second': 1.8, 'eval_steps_per_second': 1.8, 'epoch': 2.16}
+{'loss': 0.3433, 'grad_norm': 0.9248052835464478, 'learning_rate': 0.00017999999999999998, 'epoch': 2.36}
+{'eval_loss': 0.3485483229160309, 'eval_runtime': 0.5561, 'eval_samples_per_second': 1.798, 'eval_steps_per_second': 1.798, 'epoch': 2.36}
+{'loss': 0.3125, 'grad_norm': 0.6807461977005005, 'learning_rate': 0.00011999999999999999, 'epoch': 2.56}
+{'eval_loss': 0.349047988653183, 'eval_runtime': 0.5526, 'eval_samples_per_second': 1.81, 'eval_steps_per_second': 1.81, 'epoch': 2.56}
+{'loss': 0.3118, 'grad_norm': 0.6251084208488464, 'learning_rate': 5.9999999999999995e-05, 'epoch': 2.75}
+{'eval_loss': 0.3199266195297241, 'eval_runtime': 0.5486, 'eval_samples_per_second': 1.823, 'eval_steps_per_second': 1.823, 'epoch': 2.75}
+{'loss': 0.2772, 'grad_norm': 0.494719922542572, 'learning_rate': 0.0, 'epoch': 2.95}
+{'eval_loss': 0.31983134150505066, 'eval_runtime': 0.5547, 'eval_samples_per_second': 1.803, 'eval_steps_per_second': 1.803, 'epoch': 2.95}
+    fire.Fire(train)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_gemma.py", line 321, in train
+    trainer.train()
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 1932, in train
+    return inner_training_loop(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 2345, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, grad_norm, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 2796, in _maybe_log_save_evaluate
+    self._save_checkpoint(model, trial, metrics=metrics)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 2875, in _save_checkpoint
+    self.save_model(output_dir, _internal_call=True)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 3429, in save_model
+    self._save(output_dir)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/transformers/trainer.py", line 3494, in _save
+    safetensors.torch.save_file(
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/safetensors/torch.py", line 284, in save_file
+    serialize_file(_flatten(tensors), filename, metadata=metadata)
+  File "/home/haskari/miniconda3/envs/alphalora2/lib/python3.10/site-packages/safetensors/torch.py", line 480, in _flatten
+    raise RuntimeError(
+RuntimeError:
+            Some tensors share memory, this will lead to duplicate memory on disk and potential differences when loading them again: [{'base_model.model.lm_head.weight', 'base_model.model.model.embed_tokens.weight'}].
+            A potential way to correctly save your model is to use `save_model`.
+            More information at https://huggingface.co/docs/safetensors/torch_shared_tensors
+

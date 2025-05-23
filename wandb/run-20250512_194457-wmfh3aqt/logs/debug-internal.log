@@ -1,0 +1,15 @@
+{"time":"2025-05-12T19:44:57.282168184-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250512_194457-wmfh3aqt/logs/debug-core.log"}
+{"time":"2025-05-12T19:44:57.580298126-07:00","level":"INFO","msg":"created new stream","id":"wmfh3aqt"}
+{"time":"2025-05-12T19:44:57.580343216-07:00","level":"INFO","msg":"stream: started","id":"wmfh3aqt"}
+{"time":"2025-05-12T19:44:57.580368906-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"wmfh3aqt"}
+{"time":"2025-05-12T19:44:57.580375176-07:00","level":"INFO","msg":"handler: started","stream_id":"wmfh3aqt"}
+{"time":"2025-05-12T19:44:57.580385716-07:00","level":"INFO","msg":"sender: started","stream_id":"wmfh3aqt"}
+{"time":"2025-05-12T19:44:57.794778304-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-12T21:00:55.074538398-07:00","level":"INFO","msg":"stream: closing","id":"wmfh3aqt"}
+{"time":"2025-05-12T21:00:55.074563268-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-12T21:00:55.074634408-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-12T21:00:55.542929863-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-12T21:00:55.718624676-07:00","level":"INFO","msg":"handler: closed","stream_id":"wmfh3aqt"}
+{"time":"2025-05-12T21:00:55.718692846-07:00","level":"INFO","msg":"sender: closed","stream_id":"wmfh3aqt"}
+{"time":"2025-05-12T21:00:55.718683366-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wmfh3aqt"}
+{"time":"2025-05-12T21:00:55.718818976-07:00","level":"INFO","msg":"stream: closed","id":"wmfh3aqt"}

@@ -1,0 +1,16 @@
+{"time":"2025-02-24T16:08:20.81482914-08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250224_160820-esmzduxn/logs/debug-core.log"}
+{"time":"2025-02-24T16:08:21.025835781-08:00","level":"INFO","msg":"created new stream","id":"esmzduxn"}
+{"time":"2025-02-24T16:08:21.025889191-08:00","level":"INFO","msg":"stream: started","id":"esmzduxn"}
+{"time":"2025-02-24T16:08:21.025944711-08:00","level":"INFO","msg":"writer: Do: started","stream_id":"esmzduxn"}
+{"time":"2025-02-24T16:08:21.025980011-08:00","level":"INFO","msg":"sender: started","stream_id":"esmzduxn"}
+{"time":"2025-02-24T16:08:21.026039361-08:00","level":"INFO","msg":"handler: started","stream_id":"esmzduxn"}
+{"time":"2025-02-24T16:08:21.219768122-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-24T17:24:51.599292431-08:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/esmzduxn/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-02-24T17:38:02.77750112-08:00","level":"INFO","msg":"stream: closing","id":"esmzduxn"}
+{"time":"2025-02-24T17:38:02.77753042-08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-24T17:38:02.778546508-08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-24T17:38:03.201335625-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-24T17:38:03.37537399-08:00","level":"INFO","msg":"handler: closed","stream_id":"esmzduxn"}
+{"time":"2025-02-24T17:38:03.37543004-08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"esmzduxn"}
+{"time":"2025-02-24T17:38:03.37545838-08:00","level":"INFO","msg":"sender: closed","stream_id":"esmzduxn"}
+{"time":"2025-02-24T17:38:03.37553577-08:00","level":"INFO","msg":"stream: closed","id":"esmzduxn"}

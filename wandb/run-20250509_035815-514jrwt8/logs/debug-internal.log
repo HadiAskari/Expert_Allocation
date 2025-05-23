@@ -1,0 +1,15 @@
+{"time":"2025-05-09T03:58:15.703043164-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250509_035815-514jrwt8/logs/debug-core.log"}
+{"time":"2025-05-09T03:58:16.00582287-07:00","level":"INFO","msg":"created new stream","id":"514jrwt8"}
+{"time":"2025-05-09T03:58:16.00589806-07:00","level":"INFO","msg":"stream: started","id":"514jrwt8"}
+{"time":"2025-05-09T03:58:16.00594773-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"514jrwt8"}
+{"time":"2025-05-09T03:58:16.006001499-07:00","level":"INFO","msg":"handler: started","stream_id":"514jrwt8"}
+{"time":"2025-05-09T03:58:16.006046679-07:00","level":"INFO","msg":"sender: started","stream_id":"514jrwt8"}
+{"time":"2025-05-09T03:58:16.225817635-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-09T05:13:02.630771568-07:00","level":"INFO","msg":"stream: closing","id":"514jrwt8"}
+{"time":"2025-05-09T05:13:02.630819988-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-09T05:13:02.630919767-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-09T05:13:03.049740335-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-09T05:13:03.180243435-07:00","level":"INFO","msg":"handler: closed","stream_id":"514jrwt8"}
+{"time":"2025-05-09T05:13:03.180294725-07:00","level":"INFO","msg":"sender: closed","stream_id":"514jrwt8"}
+{"time":"2025-05-09T05:13:03.180285585-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"514jrwt8"}
+{"time":"2025-05-09T05:13:03.180369295-07:00","level":"INFO","msg":"stream: closed","id":"514jrwt8"}

@@ -1,0 +1,7 @@
+{"time":"2025-05-03T23:03:04.16448462Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250503_230304-b35jp8e7/logs/debug-core.log"}
+{"time":"2025-05-03T23:03:04.397899648Z","level":"INFO","msg":"created new stream","id":"b35jp8e7"}
+{"time":"2025-05-03T23:03:04.397968232Z","level":"INFO","msg":"stream: started","id":"b35jp8e7"}
+{"time":"2025-05-03T23:03:04.39802599Z","level":"INFO","msg":"writer: Do: started","stream_id":"b35jp8e7"}
+{"time":"2025-05-03T23:03:04.398082771Z","level":"INFO","msg":"sender: started","stream_id":"b35jp8e7"}
+{"time":"2025-05-03T23:03:04.398217565Z","level":"INFO","msg":"handler: started","stream_id":"b35jp8e7"}
+{"time":"2025-05-03T23:03:04.588358983Z","level":"INFO","msg":"Starting system monitor"}

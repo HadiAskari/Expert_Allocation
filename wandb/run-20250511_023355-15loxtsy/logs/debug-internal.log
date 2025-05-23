@@ -1,0 +1,15 @@
+{"time":"2025-05-11T02:33:55.793202922Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250511_023355-15loxtsy/logs/debug-core.log"}
+{"time":"2025-05-11T02:33:56.003351185Z","level":"INFO","msg":"created new stream","id":"15loxtsy"}
+{"time":"2025-05-11T02:33:56.003414112Z","level":"INFO","msg":"stream: started","id":"15loxtsy"}
+{"time":"2025-05-11T02:33:56.003467122Z","level":"INFO","msg":"writer: Do: started","stream_id":"15loxtsy"}
+{"time":"2025-05-11T02:33:56.003560779Z","level":"INFO","msg":"handler: started","stream_id":"15loxtsy"}
+{"time":"2025-05-11T02:33:56.003592487Z","level":"INFO","msg":"sender: started","stream_id":"15loxtsy"}
+{"time":"2025-05-11T02:33:56.221551937Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-11T03:16:22.029418548Z","level":"INFO","msg":"stream: closing","id":"15loxtsy"}
+{"time":"2025-05-11T03:16:22.029526449Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-11T03:16:22.029837163Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-11T03:16:22.48533654Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-11T03:16:22.871263746Z","level":"INFO","msg":"handler: closed","stream_id":"15loxtsy"}
+{"time":"2025-05-11T03:16:22.871314379Z","level":"INFO","msg":"writer: Close: closed","stream_id":"15loxtsy"}
+{"time":"2025-05-11T03:16:22.871325623Z","level":"INFO","msg":"sender: closed","stream_id":"15loxtsy"}
+{"time":"2025-05-11T03:16:22.873725295Z","level":"INFO","msg":"stream: closed","id":"15loxtsy"}

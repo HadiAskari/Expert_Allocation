@@ -1,0 +1,10 @@
+{"time":"2025-03-21T23:52:56.800485663-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250321_235256-nrv6xy9x/logs/debug-core.log"}
+{"time":"2025-03-21T23:52:57.011906468-07:00","level":"INFO","msg":"created new stream","id":"nrv6xy9x"}
+{"time":"2025-03-21T23:52:57.011971848-07:00","level":"INFO","msg":"stream: started","id":"nrv6xy9x"}
+{"time":"2025-03-21T23:52:57.011999598-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"nrv6xy9x"}
+{"time":"2025-03-21T23:52:57.012026418-07:00","level":"INFO","msg":"sender: started","stream_id":"nrv6xy9x"}
+{"time":"2025-03-21T23:52:57.012041638-07:00","level":"INFO","msg":"handler: started","stream_id":"nrv6xy9x"}
+{"time":"2025-03-21T23:52:57.251387753-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-22T00:11:59.455166359-07:00","level":"INFO","msg":"stream: closing","id":"nrv6xy9x"}
+{"time":"2025-03-22T00:11:59.455224649-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-22T00:11:59.456133928-07:00","level":"INFO","msg":"Stopped system monitor"}

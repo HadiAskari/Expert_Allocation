@@ -1,0 +1,68 @@
+  0%|                                                                                | 0/150 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_mistral.py", line 330, in <module>
+    fire.Fire(train)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/mola_training_mistral.py", line 321, in train
+    trainer.train()
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer.py", line 1932, in train
+    return inner_training_loop(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer.py", line 2268, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer.py", line 3307, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/transformers/trainer.py", line 3338, in compute_loss
+    outputs = model(**inputs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/accelerate/utils/operations.py", line 817, in forward
+    return model_forward(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/accelerate/utils/operations.py", line 805, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_peft_model_hacked.py", line 983, in forward
+    return self.base_model(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_modeling_mistral_hacked.py", line 1563, in forward
+    outputs, router_logits = self.model(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_modeling_mistral_hacked.py", line 1244, in forward
+    layer_outputs = decoder_layer(
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_modeling_mistral_hacked.py", line 940, in forward
+    hidden_states, r_l = self.mlp(hidden_states)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_modeling_mistral_hacked.py", line 264, in forward
+    down_proj, r_l3 = self.down_proj(self.act_fn(gate) * up)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/nas02/Hadi/Model-Selection-IF/alphalora/src/mola_lora_hacked.py", line 870, in forward
+    self.lora_A[adapter_name_moe](self.lora_dropout[self.active_adapter](current_state))
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/haskari/miniconda3/envs/alphalora/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 26.00 MiB. GPU 0 has a total capacity of 47.51 GiB of which 2.31 MiB is free. Including non-PyTorch memory, this process has 47.50 GiB memory in use. Of the allocated memory 46.85 GiB is allocated by PyTorch, and 154.36 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

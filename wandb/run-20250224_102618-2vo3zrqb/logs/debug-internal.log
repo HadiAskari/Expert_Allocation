@@ -1,0 +1,16 @@
+{"time":"2025-02-24T10:26:18.716550316-08:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250224_102618-2vo3zrqb/logs/debug-core.log"}
+{"time":"2025-02-24T10:26:18.928397381-08:00","level":"INFO","msg":"created new stream","id":"2vo3zrqb"}
+{"time":"2025-02-24T10:26:18.928450701-08:00","level":"INFO","msg":"stream: started","id":"2vo3zrqb"}
+{"time":"2025-02-24T10:26:18.928489271-08:00","level":"INFO","msg":"writer: Do: started","stream_id":"2vo3zrqb"}
+{"time":"2025-02-24T10:26:18.928522771-08:00","level":"INFO","msg":"handler: started","stream_id":"2vo3zrqb"}
+{"time":"2025-02-24T10:26:18.928617571-08:00","level":"INFO","msg":"sender: started","stream_id":"2vo3zrqb"}
+{"time":"2025-02-24T10:26:19.080843173-08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-24T10:57:39.492200569-08:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/2vo3zrqb/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-02-24T11:42:07.204779854-08:00","level":"INFO","msg":"stream: closing","id":"2vo3zrqb"}
+{"time":"2025-02-24T11:42:07.204819974-08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-24T11:42:07.205763163-08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-24T11:42:07.64357054-08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-24T11:42:07.791376171-08:00","level":"INFO","msg":"handler: closed","stream_id":"2vo3zrqb"}
+{"time":"2025-02-24T11:42:07.791413071-08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2vo3zrqb"}
+{"time":"2025-02-24T11:42:07.791431781-08:00","level":"INFO","msg":"sender: closed","stream_id":"2vo3zrqb"}
+{"time":"2025-02-24T11:42:07.791514181-08:00","level":"INFO","msg":"stream: closed","id":"2vo3zrqb"}

@@ -1,0 +1,37 @@
+{"time":"2025-05-03T17:20:25.396536404-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250503_172025-0jt22rwx/logs/debug-core.log"}
+{"time":"2025-05-03T17:20:25.70459239-07:00","level":"INFO","msg":"created new stream","id":"0jt22rwx"}
+{"time":"2025-05-03T17:20:25.70464033-07:00","level":"INFO","msg":"stream: started","id":"0jt22rwx"}
+{"time":"2025-05-03T17:20:25.70468851-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"0jt22rwx"}
+{"time":"2025-05-03T17:20:25.70472714-07:00","level":"INFO","msg":"sender: started","stream_id":"0jt22rwx"}
+{"time":"2025-05-03T17:20:25.70478098-07:00","level":"INFO","msg":"handler: started","stream_id":"0jt22rwx"}
+{"time":"2025-05-03T17:20:25.934370118-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-03T18:31:41.640882594-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 35.226.229.132:3307: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}
+{"time":"2025-05-03T18:31:44.154879997-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 35.226.229.132:3307: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}
+{"time":"2025-05-03T18:31:48.642155711-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"dial tcp 35.226.229.132:3307: connect: connection refused\",\"path\":[\"project\"]}],\"data\":{\"project\":null}}"}
+{"time":"2025-05-03T18:31:50.832856914-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/0jt22rwx/file_stream","body":"{\"error\":\"dial tcp 35.226.229.132:3307: connect: connection refused\"}"}
+{"time":"2025-05-03T18:31:58.24327854-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/0jt22rwx/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-03T18:32:27.920710937-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-03T18:32:57.68850334-07:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/0jt22rwx/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-05-03T18:33:15.640702078-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-03T18:34:00.792082566-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/0jt22rwx/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-03T18:34:19.684167503-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-03T18:35:11.898911543-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/0jt22rwx/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-03T18:35:49.686304277-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-03T18:36:46.214884415-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/0jt22rwx/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-03T18:37:19.688152599-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-03T18:38:41.400643697-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/0jt22rwx/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-03T18:38:49.690003489-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-03T18:40:19.690863187-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-03T18:40:36.469427569-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/0jt22rwx/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-03T18:41:41.174925673-07:00","level":"WARN","msg":"sender: taking a long time","seconds":600.000051968,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"vrz5hh5pcc6y\" connection_id:\"127.0.0.1:36444\")"}
+{"time":"2025-05-03T18:41:49.692332739-07:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-03T18:42:31.53986814-07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/haskari-uc-davis/IF%20Layer%20Quality/0jt22rwx/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-03T18:42:50.204237613-07:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":669.029472298,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"vrz5hh5pcc6y\" connection_id:\"127.0.0.1:36444\")"}
+{"time":"2025-05-03T18:55:23.470190306-07:00","level":"INFO","msg":"stream: closing","id":"0jt22rwx"}
+{"time":"2025-05-03T18:55:23.470227916-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-03T18:55:23.470279036-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-03T18:55:23.873997281-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-03T18:55:23.987650254-07:00","level":"INFO","msg":"handler: closed","stream_id":"0jt22rwx"}
+{"time":"2025-05-03T18:55:23.987730034-07:00","level":"INFO","msg":"sender: closed","stream_id":"0jt22rwx"}
+{"time":"2025-05-03T18:55:23.987720384-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0jt22rwx"}
+{"time":"2025-05-03T18:55:23.987815823-07:00","level":"INFO","msg":"stream: closed","id":"0jt22rwx"}

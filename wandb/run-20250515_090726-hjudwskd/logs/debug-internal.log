@@ -1,0 +1,15 @@
+{"time":"2025-05-15T09:07:26.297145083Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250515_090726-hjudwskd/logs/debug-core.log"}
+{"time":"2025-05-15T09:07:26.494400611Z","level":"INFO","msg":"created new stream","id":"hjudwskd"}
+{"time":"2025-05-15T09:07:26.494450483Z","level":"INFO","msg":"stream: started","id":"hjudwskd"}
+{"time":"2025-05-15T09:07:26.494482304Z","level":"INFO","msg":"writer: Do: started","stream_id":"hjudwskd"}
+{"time":"2025-05-15T09:07:26.494497755Z","level":"INFO","msg":"sender: started","stream_id":"hjudwskd"}
+{"time":"2025-05-15T09:07:26.494532326Z","level":"INFO","msg":"handler: started","stream_id":"hjudwskd"}
+{"time":"2025-05-15T09:07:26.707947471Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T09:42:46.148521793Z","level":"INFO","msg":"stream: closing","id":"hjudwskd"}
+{"time":"2025-05-15T09:42:46.148642878Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T09:42:46.148981431Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T09:42:46.598702479Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T09:42:46.82640608Z","level":"INFO","msg":"handler: closed","stream_id":"hjudwskd"}
+{"time":"2025-05-15T09:42:46.826463292Z","level":"INFO","msg":"sender: closed","stream_id":"hjudwskd"}
+{"time":"2025-05-15T09:42:46.826459522Z","level":"INFO","msg":"writer: Close: closed","stream_id":"hjudwskd"}
+{"time":"2025-05-15T09:42:46.828789204Z","level":"INFO","msg":"stream: closed","id":"hjudwskd"}

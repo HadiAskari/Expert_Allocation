@@ -1,0 +1,15 @@
+{"time":"2025-03-21T06:13:52.922950609-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/nas02/Hadi/Model-Selection-IF/alphalora/wandb/run-20250321_061352-kyo882v6/logs/debug-core.log"}
+{"time":"2025-03-21T06:13:53.535519649-07:00","level":"INFO","msg":"created new stream","id":"kyo882v6"}
+{"time":"2025-03-21T06:13:53.535581519-07:00","level":"INFO","msg":"stream: started","id":"kyo882v6"}
+{"time":"2025-03-21T06:13:53.535609039-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"kyo882v6"}
+{"time":"2025-03-21T06:13:53.535640119-07:00","level":"INFO","msg":"handler: started","stream_id":"kyo882v6"}
+{"time":"2025-03-21T06:13:53.535715659-07:00","level":"INFO","msg":"sender: started","stream_id":"kyo882v6"}
+{"time":"2025-03-21T06:13:53.791218312-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-21T15:36:21.522042666-07:00","level":"INFO","msg":"stream: closing","id":"kyo882v6"}
+{"time":"2025-03-21T15:36:21.522081666-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-21T15:36:21.522936035-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-21T15:36:21.975387404-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-21T15:36:22.093076641-07:00","level":"INFO","msg":"handler: closed","stream_id":"kyo882v6"}
+{"time":"2025-03-21T15:36:22.093139901-07:00","level":"INFO","msg":"sender: closed","stream_id":"kyo882v6"}
+{"time":"2025-03-21T15:36:22.093134721-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kyo882v6"}
+{"time":"2025-03-21T15:36:22.093238551-07:00","level":"INFO","msg":"stream: closed","id":"kyo882v6"}
